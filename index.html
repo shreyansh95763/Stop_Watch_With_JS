@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>StopWatch</title>
+    </head>
+    <body>
+        <div class="frame_container">
+            <div class="timer_header">
+                <h1 id="heading"> COUNTDOWN TIMER</h1>
+            </div>
+            <div class="middle_container">
+                <div class="time_container" >
+                    <h1 id="hr">00</h1>
+                </div>
+                <div class="time_middle">
+                    <h1>:</h1>
+                </div>
+                <div class="time_container" >
+                    <h1 id="min">00</h1>
+                </div>
+                <div class="time_middle">
+                    <h1>:</h1>
+                </div>
+                <div class="time_container" >
+                    <h1 id="sec">00</h1>
+                </div>
+                <div class="time_middle">
+                    <h1>:</h1>
+                </div>
+                <div class="time_container" >
+                    <h1 id="count">00</h1>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="all-buttons start" onClick="start()">
+                    <h1>Start</h1>
+                </div>
+                <div class="all-buttons stops" onClick="stop()">
+                    <h1>Stop</h1>
+                </div>
+                <div class="all-buttons reset" onClick="reset()">
+                    <h1>Reset</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
